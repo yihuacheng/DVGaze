@@ -12,7 +12,7 @@
 </div>
 
 ## Description
-Dual cameras have been applied in many devices recently. In this paper, we explore a new direction for gaze estimation. We propose a dual-view gaze estimation network (DV-Gaze) including dual-view interactive convolution block and dual-view transformers. This work is accepted by ICCV 2023. 
+Dual cameras have been applied in many devices recently. In this paper, we explore a new direction for gaze estimation. We propose a dual-view gaze estimation network (DV-Gaze) including dual-view interactive convolution block and dual-view transformers.
 ![DVGaze](images/pipeline.png)
 
 ## Comming Soon
