@@ -1,6 +1,6 @@
 <div align="center">
 
-<h2> DVGaze: Dual-view Gaze Estimation  <a href='https://arxiv.org/abs/2308.10310.pdf'><img src='https://img.shields.io/badge/ArXiv-PDF-red'></a>  </h2>
+<h2> DVGaze: Dual-view Gaze Estimation  <a href='https://arxiv.org/abs/2308.10310.pdf'><img src='https://img.shields.io/badge/ArXiv-PDF-red' style="vertical-align:middle;"></a>  </h2>
 
 <div>
    <i><a href="https://yihua.zone/">Yihua Cheng </a> and <a href='https://scholar.google.com.hk/citations?user=9ggbm0QAAAAJ&hl=en'>Feng Lu</a>,  ICCV 2023</i>
