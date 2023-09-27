@@ -1,0 +1,37 @@
+---
+train:
+
+    params:
+        batch_size: 64
+        epoch: 60
+        lr: 0.0005
+        decay: 0.5
+        decay_step: 60
+        warmup: 5
+
+    save:
+        metapath: "/home/chengyihua/work/Multi-Camera/exp/0_CameraReady"
+        folder: eth
+        model_name: trans
+        step: 5
+
+    data:
+        image: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/Image/train"
+        label_cam1: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/LabelForMultiCams/Landmarklabel/cam2.train"
+        label_cam2: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/LabelForMultiCams/Landmarklabel/cam7.train"
+        header: True
+        cams: 
+            params: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/calibration/readcam"
+        name: eth
+        isFolder: False
+
+    pretrain:
+        enable: False
+        path: PLACEHOLDER
+        device: PLACEHOLDER
+
+    device: 0 
+    reader: reader
+
+# dropout = 0
+# dim_feed = 512

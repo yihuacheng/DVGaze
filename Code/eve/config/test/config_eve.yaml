@@ -1,0 +1,23 @@
+---
+test:
+
+    load:
+        begin_step: 10
+        end_step: 30
+        steps: 5
+
+    data: 
+        image: "/home/chengyihua/dataset/FaceBased/EVE/Image"
+        label_cam1: "/home/chengyihua/dataset/FaceBased/EVE/LabelForMultiCams/val/webcam_l.test" 
+        label_cam2: "/home/chengyihua/dataset/FaceBased/EVE/LabelForMultiCams/val/webcam_r.test" 
+        name: eve
+        header: False
+        isFolder: False
+    savename: "evaluation"
+
+    device: 0
+
+    reader: reader
+
+# dropout = 0
+# dim_feed = 512

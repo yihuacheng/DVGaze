@@ -1,0 +1,35 @@
+---
+train:
+
+    params:
+        batch_size: 64
+        epoch: 30
+        lr: 0.0005
+        decay: 0.5
+        decay_step: 40
+        warmup: 5
+
+    save:
+        metapath: "/home/chengyihua/work/Multi-Camera/exp/0_CameraReady"
+        folder: eve
+        model_name: trans
+        step: 5
+
+    data:
+        image: "/home/chengyihua/dataset/FaceBased/EVE/Image"
+        label_cam1: "/home/chengyihua/dataset/FaceBased/EVE/LabelForMultiCams/train/webcam_l.train"
+        label_cam2: "/home/chengyihua/dataset/FaceBased/EVE/LabelForMultiCams/train/webcam_r.train"
+        header: False
+        name: eve
+        isFolder: False
+
+    pretrain:
+        enable: False
+        path: PLACEHOLDER
+        device: PLACEHOLDER
+
+    device: 1 
+    reader: reader
+
+# dropout = 0
+# dim_feed = 512

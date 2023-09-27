@@ -1,0 +1,25 @@
+---
+test:
+
+    load:
+        begin_step: 40
+        end_step: 40
+        steps: 5
+
+    data: 
+        image: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/Image/train"
+        label_cam1: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/LabelForMultiCams/Landmarklabel/cam2.test" 
+        label_cam2: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/LabelForMultiCams/Landmarklabel/cam7.test" 
+        name: eth
+        header: False
+        isFolder: False
+        cams:
+            params: "/home/chengyihua/dataset/FaceBased/ETH-Gaze/calibration/readcam"
+    savename: "evaluation"
+
+    device: 1
+
+    reader: reader
+
+# dropout = 0
+# dim_feed = 512

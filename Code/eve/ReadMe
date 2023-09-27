@@ -1,0 +1,8 @@
+Image is fed into ResNet.
+We fusion two-branch feature during mid-term.
+
+# Updata
+The fusion is applied on last two layers.
+
+# Update
+We add heatmap of landmarks into model
